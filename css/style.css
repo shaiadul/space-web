@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(/assets/home/background-home-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+/* main section started here */
+
+main{
+    padding-top: 180px;
+}
+#so-you{
+    font-size: 20px;
+    color: rgb(175, 180, 180);
+}
+#space{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px gray;
+    padding-bottom: 15px;
+}
+#fast-p{
+    color:rgb(175, 180, 180) ;
+    text-align:justify;
+}
+.circel{
+    
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color: white;
+    
+  }
+  .circel>p{
+    color: #C7C11A;
+    text-align:center;
+    margin-top: 85px;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px gray;  
+  }
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space - Crew</title>
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- link favicon  -->
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <!-- style part here -->
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+        }
+        body{
+            background-image: url(assets/crew/background-crew-desktop.jpg);
+            background-size: cover;
+            /* background-position: center; */
+            background-repeat: no-repeat;
+        }
+        .crew-head{
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+        .row{
+            padding-top: 100px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+        #crew-title{
+            color: rgb(204, 200, 200);
+            padding-bottom:0px;
+        }
+        #crew-name{
+            color: white;
+            font-weight: 700;
+            text-shadow: 3px 3px 5px gray;
+            padding-bottom: 10px;
+            padding-top: 15px;
+            border-bottom: 2px solid #C7C11A;
+        }
+        #crew-p{
+            color: rgb(197, 190, 190);
+            text-align: justify;
+            padding-top: 10px;
+        }
+        
+
+    </style>
+</head>
+<body>
+ <!---------------------------------
+header part and nav part start here -
+----------------------------------->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid m-2">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img class="pe-1" src="assets/shared/logo.svg" width="45" alt="Idea">SPACIS.com
+               
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul  class="navbar-nav ms-auto align-items-center mb-2 me-5 mb-lg-0  py-2 " style="background-color: rgba(0, 0, 0, 0.753); border-radius: 9px;" >
+                    <li  class="nav-item ms-2">
+                        <a class="nav-link text-white "  href="index.html">00 HOME</a>
+                    </li>
+                    <li  class="nav-item ms-2">
+                        <a class="nav-link text-white" href="page01.html">01 DESTINATION</a>
+                    </li>
+                    <li style="border-bottom: 2px solid rgba(245, 222, 179, 0.37);
+                    border-bottom-left-radius: 10px;
+                    border-bottom-color: #C7C11A;" class="nav-item ms-2">
+                        <a class="nav-link text-white" href="#">02 CREW</a>
+                    </li>
+                    <li class="nav-item ms-2 mp-3 ">
+                        <a class="nav-link text-white" href="page03.html">03 TECHNOLOGY</a>
+                    </li>
+                  
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!---------------------------------
+header part and nav part end here -
+----------------------------------->
+<main>
+    <div class="container">
+        <h4 class="crew-head" style="color: rgb(219, 200, 163);"><span style="color: gray;">02 </span>MEET YOUR CREW</h4>
+    </div>
+     
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h4 id="crew-title"> FLIGHT ENGINEER</h4>
+                <h1 id="crew-name">ANOUSHEH ANSARI :</h1>
+                <p id="crew-p"> Anousheh Ansari is iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist. the first self-funded woman to fly to the ISS and the first tranian in space.</p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 m-auto d-flex justify-content-center align-items-center">
+                <img style="width: 240px;" src="/assets/crew/image-douglas-hurley.png"  alt="">
+            </div>
+        </div>
+    </div>
+</main>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
